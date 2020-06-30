@@ -12,6 +12,7 @@ div.nav {
 	font-size: large;
 	a {
 		color: #ffffff;
+		background-color: #66023c;
 	}
 	a:active, link, visited {
 		text-decoration: underline;
