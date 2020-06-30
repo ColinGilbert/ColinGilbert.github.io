@@ -10,13 +10,13 @@ div.nav {
 	text-align: center;
 	font-size: large;
 }
-div.nav a:link, a:visited, a:active, a:hover, a:focus {
+div.nav a:link, div.nav a:visited, div.nav a:active, div.nav a:hover, div.nav a:focus {
 	color: #ffffff;
 	background-color: #66023c;
 }
-div.nav a:link, a:visited, a:active {
+div.nav a:link, div.nav a:visited, div.nav a:active {
 	text-decoration: underline;
 }
-div.nav a:hover, a:focus {
+div.nav a:hover, div.nav a:focus {
 	text-decoration: none;
 }
