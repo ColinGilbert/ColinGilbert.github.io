@@ -10,13 +10,26 @@ div.nav {
 	text-align: center;
 	font-size: large;
 }
-div.nav a:link, div.nav a:visited, div.nav a:active, div.nav a:hover, div.nav a:focus {
+div.nav a:link{
 	color: #ffffff;
-	background-color: #66023c;
-}
-div.nav a:link, div.nav a:visited, div.nav a:active {
 	text-decoration: underline;
 }
-div.nav a:hover, div.nav a:focus {
+div.nav a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+div.nav a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+div.nav a:hover {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration:none;
+
+}
+div.nav a:focus {
+	color: #ffffff;
+	text-transform: uppercase;
 	text-decoration: none;
 }
