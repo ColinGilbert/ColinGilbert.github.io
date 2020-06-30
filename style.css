@@ -12,11 +12,11 @@ div.nav {
 }
 div.nav a:link {
 	color: #ffffff;
-	text-decoration: underline;
+	text-decoration: none;
 }
 div.nav a:visited {
 	color: #ffffff;
-	text-decoration: underline;
+	text-decoration: none;
 }
 div.nav a:active {
 	color: #ffffff;
@@ -24,11 +24,9 @@ div.nav a:active {
 }
 div.nav a:hover {
 	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration:none;
+	text-decoration: underline;
 }
 div.nav a:focus {
 	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
+	text-decoration: underline;
 }
