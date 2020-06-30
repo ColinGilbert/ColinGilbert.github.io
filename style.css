@@ -5,21 +5,27 @@ body {
 	h1, h2, h3, h4, h5, h6 {
 		color: #66023c;
 	}
+}
+
+div.nav {
+	border: none;
+	color: #fffff0;
 	text-align: center;
+	background-color: #66023c;
 	font-size: large;
-	a {
-		color: #66023c;
-	}
-	a:link, visited {
+	a:link {
+		color: #fffff0;
 		text-decoration: underline;
 	}
-	a: active, hover, focus {
+	a:visited {
+		color: #fffdd0;
+		text-decoration: underline;
+	}
+	a:hover, focus {
 		text-decoration: none;
 	}
-	p.nav {
-		text-align: center;
-	}
-	h2.nav {
-		text-align: center;
+	a:active {
+		color: #fffdd0;
+		text-decoration: underline;
 	}
 }
