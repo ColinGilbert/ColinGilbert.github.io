@@ -1,0 +1,26 @@
+body {
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: #fffff0;
+	h1, h2, h3, h4, h5, h6 {
+		color: #66023c;
+	}
+}
+
+.nav {
+	border: none;
+	background-color: #66023c;
+	text-align: center;
+	font-size: large;
+	a:link {
+		color: #fffff0;
+	}
+	a:visited {
+		color: #fffdd0;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:active {
+		text-decoration: none;
+	}
+}
