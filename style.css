@@ -10,13 +10,12 @@ div.nav {
 	text-align: center;
 	background-color: #66023c;
 	font-size: large;
-	a:active, link, visited {
-
+	a.nav:active, link, visited {
 		color: #ffffff;
 		background-color: #66023c;
 		text-decoration: underline;
 	}
-	a:hover, focus {
+	a.nav:hover, focus {
 		color: #ffffff;
 		background-color: #66023c;
 		text-decoration: none;
