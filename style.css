@@ -2,30 +2,21 @@ body {
 	font-family: Impact, Charcoal, sans-serif;
 	background-color: #fffff0;
 	color: #000000;
-	h1, h2, h3, h4, h5, h6 {
-		color: #66023c;
-	}
 }
 
 div.nav {
 	border: none;
-	color: #fffff0;
+	color: #ffffff;
 	text-align: center;
 	background-color: #66023c;
 	font-size: large;
-	a:link {
-		color: #fffff0;
-		text-decoration: underline;
+	a {
+		color: #ffffff;
 	}
-	a:visited {
-		color: #fffdd0;
+	a:active, link, visited {
 		text-decoration: underline;
 	}
 	a:hover, focus {
 		text-decoration: none;
-	}
-	a:active {
-		color: #fffdd0;
-		text-decoration: underline;
 	}
 }
