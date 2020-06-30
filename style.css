@@ -14,23 +14,18 @@ div.nav {
 	background-color: #66023c;
 	font-size: large;
 	a:link {
-		color: #fffff0;
-		background-color: #66023c;
+		color: #ffffff;
 		text-decoration: underline;
 	}
 	a:visited {
 		color: #fffdd0;
-		background-color:#66023c;
 		text-decoration: underline;
 	}
 	a:hover, focus {
-		color: #fffdd0;
-		background-color: #66023c;
 		text-decoration: none;
 	}
 	a:active {
 		color: #fffdd0;
-		background-color: #66023c;
 		text-decoration: underline;
 	}
 }
