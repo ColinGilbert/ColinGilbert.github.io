@@ -7,22 +7,30 @@ body {
 	}
 }
 
-.nav {
+div.nav {
 	border: none;
-	background-color: #66023c;
 	color: #fffff0;
 	text-align: center;
+	background-color: #66023c;
 	font-size: large;
 	a:link {
 		color: #fffff0;
+		background-color: #66023c;
+		text-decoration: underline;
 	}
 	a:visited {
 		color: #fffdd0;
+		background-color:#66023c;
+		text-decoration: underline;
 	}
-	a:hover {
+	a:hover, focus {
+		color: #fffdd0;
+		background-color: #66023c;
 		text-decoration: none;
 	}
 	a:active {
-		text-decoration: none;
+		color: #fffdd0;
+		background-color: #66023c;
+		text-decoration: underline;
 	}
 }
