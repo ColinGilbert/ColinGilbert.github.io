@@ -10,20 +10,25 @@ div.nav {
 	background-color: #66023c;
 	font-size: large;
 	a {
-		color: #ffffff;
-		background-color: #66023c;
 	}
 	a:link {
+		color: #ffffff;
+		background-color: #66023c;
 		text-decoration: underline;
 	}
-
 	a:visited {
+		color: #ffffff;
+		background-color: #66023c;
 		text-decoration: underline;
 	}
 	a:active {
+		color: #ffffff;
+		background-color: #66023c;
 		text-decoration: underline;
 	}
 	a:hover {
+		color: #ffffff;
+		background-color: #66023c;
 		text-decoration: none;
 	}
 }
