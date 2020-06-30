@@ -3,14 +3,7 @@ body {
 	background-color: #fffff0;
 	color: #000000;
 }
-div.nav {
-	border: none;
-	color: #ffffff;
-	background-color: #66023c;
-	text-align: center;
-	font-size: large;
-}
-div.nav a:link{
+div.nav a:link {
 	color: #ffffff;
 	text-decoration: underline;
 }
@@ -26,10 +19,16 @@ div.nav a:hover {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration:none;
-
 }
 div.nav a:focus {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+div.nav {
+	border: none;
+	color: #ffffff;
+	background-color: #66023c;
+	text-align: center;
+	font-size: large;
 }
