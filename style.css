@@ -9,26 +9,13 @@ div.nav {
 	text-align: center;
 	background-color: #66023c;
 	font-size: large;
-	a {
-	}
-	a:link {
-		color: #ffffff;
-		background-color: #66023c;
-		text-decoration: underline;
-	}
-	a:visited {
-		color: #ffffff;
-		background-color: #66023c;
-		text-decoration: underline;
-	}
-	a:active {
-		color: #ffffff;
-		background-color: #66023c;
-		text-decoration: underline;
-	}
-	a:hover {
-		color: #ffffff;
-		background-color: #66023c;
-		text-decoration: none;
-	}
+}
+div.nav a:link, a:visited, a:active, a:hover, a:focus {
+	color: #ffffff;
+}
+div.nav a.link, a:visited, a:active {
+	text-decoration: underline;
+}
+div.nav a:hover, a:focus {
+	text-decoration: none;
 }
