@@ -9,14 +9,14 @@ div.nav {
 	text-align: center;
 	background-color: #66023c;
 	font-size: large;
-}
-a.nav:active, link, visited {
-	color: #ffffff;
-	background-color: #66023c;
-	text-decoration: underline;
-}
-a.nav:hover, focus {
-	color: #ffffff;
-	background-color: #66023c;
-	text-decoration: none;
+	a:link, visited, active {
+		color: #ffffff;
+		background-color: #66023c;
+		text-decoration: underline;
+	}
+	a:hover, focus {
+		color: #ffffff;
+		background-color: #66023c;
+		text-decoration: none;
+	}
 }
