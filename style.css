@@ -9,9 +9,7 @@ body {
 .nav {
 	border: none;
 	background-color: #66023c;
-	text {
-		color: #fffff0;
-	}
+	color: #fffff0;
 	text-align: center;
 	font-size: large;
 	a:link {
