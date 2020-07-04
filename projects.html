@@ -8,26 +8,22 @@
 		<div class="nav">
 			<a href="index.html">About</a> | <a href="projects.html">Projects</a>
 		</div>
-		<p>Here I maintain a quick view into some of my cool projects.</p>
-			
-			<h4>FIT/ME - Food Intake Track / Manage Exercise</h4>
-			<p>This is the most recently-started project in my roster. I have long needed a calorie-tracking app that preserves my privacy, that I can customize, and that can be synced across all devices. I am currently only breaking ground on this, but this project will be up and running soon enough. I haven't yet done any C# yet, but the language is an easy one and after looking at its niche (amazing cross-platform support; possibly what Java should have been) I think that this project will be a perfect excuse to learn it.</p>
-			<p>Its main goal will be to keep a running count of your calories in/calories out on your cell phone, syncing over wifi to a main PC (or a dedicated RPi-like device) when you come home. It will be able to show you what you've had in terms of calories and other nutrients over the past 24 hours, the past three days, and on a calendar. There will also be a functionality that allows you to create new recipes and export them for sharing and a data backup utility.</p>
-			<p>This is an investment in my own health, and will hopefully help others.</p>
-			<p>A link will be posted as soon as I have a nucleus of code uploaded to GitHub.</p>
-			<br/>
-			<h4>NoobWerkz Engine</h4>
-			<p>This thing is my pet. I  wrote this from the ground up in C++, and have taken out at least three times as much code as the project contains. This has been a very good project for someone wanting to tame a medium-complexity project into something elegant. This thing hasn't seen updates in a little bit, but remains my goto-choice for code that I know will work well. It is very bare-bones, but as features it has: It support OpenGLES 3 fully, it has a very flexible component/entity system, excellent all-purpose shaders that won't need any more texture memory (just tweak the params to reveal other aspects of the same image), no RTTI/exceptions, and no deep inheritance structures. It also natively supports fun peripherals such as the 3DMouse and the Wacom tablet.</p>
-			<p>It is currently still in its early teenage years. It needs a few bits of refinement and additional functionality, and I'd like to rewrite all parts of it that live on a server in a memory-safe language such as Rust or Ada/SPARK.</p>
-			<p><a href="https://www.github.com/colingilbert/noobwerkz-engine">Link</a>
-			<br/>
-			<h4>AutoGentoo</h4>
-			<p>AutoGentoo is a set of python scripts that do of the repetitive work of building, packing, and compressing immutable system images. The generated kernels have your entire rootfs packed right in as an initramfs.
-			<p>At this point it is mostly feature-complete and does what it should do. There will be a few backend changes and very minor feature upgrades. I intend on trying out Exherbo as it seems to solve a few of the problems this toolset fixes.</p>
-			<p><a href="https://www.github.com/colingilbert/autogentoo">Link</a>
-			<br/>
-		</ol>
-		<p></p>
-		<p></p>
+		<p>Here I maintain a quick view into some of my cool projects. Warning: Technical language is used here.</p>
+		<h4>FIT/ME - Food Intake Track / Manage Exercise</h4>
+		<p><b>Status: Early-stage development</b></p>
+		<p>I know myself and the need to log calories for good health: As such this is the most recently-started project in my roster. I have long needed a calorie-tracking app that preserves my privacy, that I can customize, and that can be synced across all devices. I am currently only breaking ground on this, but this project will be up and running soon enough. I haven't yet done any C# yet, but the language is an easy one and after looking at its niche (amazing cross-platform support; possibly what Java should have been) I think that this project will be a perfect excuse to learn it. Its main goal will be to keep a running count of your calories in/calories out on your cell phone, syncing over wifi to a main PC (or a dedicated RPi-like device) when you come home. It will be able to show you what you've had in terms of calories and other nutrients over the past 24 hours, the past three days, and on a calendar. There will also be a functionality that allows you to create new recipes and export them for sharing and a data backup utility. This is an investment in my own health, and will hopefully help others.</p>
+		<p>A link will be posted as soon as I have a nucleus of code uploaded to GitHub.</p>
+		<br/>
+		<h4>NoobWerkz Engine</h4>
+		<p><b>Status: Mid-maturity</b></p>
+		<p>This thing is my pet. I  wrote this from the ground up in C++, and have taken out at least three times as much code as the project contains. This has been a very good project for someone wanting to tame complexity into elegance. This thing hasn't seen updates in while, but remains my goto-choice for code that I know will work well. It is very, very bare-bones, but as features it has: Full OpenGLES 3 support, a an extremelt flexible "gets out of your way" component/entity system, excellent all-purpose shaders that only take up constant space of texture memory (just tweak the parameters to obtain totally different results), no RTTI/exceptions, and no deep inheritance structures:  The vast majority of inheritance is as pure virtual functions that get final'd at definition-time. It also natively supports fun peripherals such as the 3DMouse and the Wacom tablet.</p>
+		<p>It is currently still in its early teenage years: It needs refinement and additional abilities. Due to its data-oriented loop that preallocates the most possible it is already very stable, but I'd like to rewrite all parts of it that live on a server in a memory-safe language such as Rust or Ada/SPARK.</p>
+		<p><a href="https://www.github.com/colingilbert/noobwerkz-engine">Link</a></p>
+		<br/>
+		<h4>AutoGentoo</h4>
+		<p><b>Status: Early maturity established</b></p>
+		<p>AutoGentoo is a set of Python scripts that do the repetitive work of building, packing, and compressing immutable system images. The generated kernels have rootfs packed right in as a linked initramfs. Will soon be using a sane and portable alternative to ZFS, plus functionality for packing filesystems for subsequent overlaying.
+		<p>At this point it is mostly feature-complete and does what it should do. There will be a few backend changes and minor feature upgrades. Linux-wise, I believe Exherbo may fit my needs a bit more, as it seems to solve a few of the problems this toolset fixes. This fun little project may even become obsolete for me sooner than expected! Even if it does, I hope to leave it well-enough to make others happy to use it.</p>
+		<p><a href="https://www.github.com/colingilbert/autogentoo">Link</a></p>
 	</body>
 </html>
