@@ -10,43 +10,41 @@
 		</div>
 		<h2>About</h2>
 		<p>Hi! My name is Colin Gilbert. I am a computer programmer based in Regina, Saskatchewan.</p>
-		<p>If you are reading this, odds are that you're either looking into my cool projects or deciding whether you or your firm wants to work alongside me. I am <i>very</i> invested in my education and tend to become highly knowledgeable in fields that must be understood in order to fulfill other needs.</p>
+		<p>If you are reading this, odds are that you're either looking into my cool projects or deciding whether you or your firm wants me to work alongside you. I am <i>very</i> invested in my education and tend to become highly knowledgeable in fields that must be understood in order to fulfill other needs.</p>
 		<p>Among the nicer things I have been called more than once: Good communicator, good teacher, good person, extremely bright, respectful, very intelligent, silly, brave, funny.</p>
+		<h4>Contact information:</h4>
+		<p>My email address for enquiries from the general public is: <a href="mailto:public.colingilbert@gmail.com">public.colingilbert@gmail.com</a></p>
 		<h4>Credentials (obtained)</h4>
 		<ul>
-			<li>A+ Certification. 2003</li>
-			<li>High School Diploma. Mgr. de Laval. Regina, Saskatchewan, Canada. 2004</li>
 			<li>BSc. Computer Science, University of Regina. Regina, Saskatchewan, Canada. 2020</li>
+			<li>High School Diploma. Mgr. de Laval. Regina, Saskatchewan, Canada. 2004</li>
+			<li>A+ Certification. 2003</li>
 		</ul>
 		<h4>Credentials (currently working on)</h4>
 		<p>Unlike some software devs, I believe that certs hold value if they are chosen carefully. Here is my current shortlist:</p>
 		<ol>
-			<li>CAPM (Certified Associate in Project Management), from PMBOK</li>
 			<li>CTT+ (Certified Technical Trainer), from CompTIA</li>
+			<li>CAPM (Certified Associate in Project Management), from PMBOK</li>
 		</ol>
 		<h4>Experiences</h4>
-		<p>This is where a prospective colleague will express the noteworthy things they've done over the past years. Hiring personel performing due diligence may notice a gap between milestones. I fell very ill for several years while nobody listened. For about half a decade I lived in a sort of suspended state with sub-marginal well-being. It then took another five years or so to relearn social skills and executive function, as these had been mostly tabula rasa'd by what had happened.</p>
+		<p>This is where your prospective colleague will express the noteworthy things they've done over the past years: Hiring personel performing due diligence may notice a gap between milestones. I fell very ill for several years while nobody listened. For about half a decade I lived in a sort of suspended state with sub-marginal well-being. It then took another five years or so to relearn social skills and executive function, as these had been mostly tabula rasa'd by what had happened.</p>
 		<p>However, from June 2016 to August 2017 I was the computer technician at London Drugs Harbour Landing in Regina. I was often roped in to sell, and was able to provide unexpectedly good service to customers expecting a lot less from me. It was there where I started learning how to speak with non-technical people. I also discovered a liking towards consulting - people wanted to see me specifically because they knew I was both honest and extremely knowledgeable. Talking to customers there also gave me ideas for various products and services I intend to offer someday.</p>
 		<h2>Projects</h2>	
-		<h4>FIT/ME - Food Intake Track / Manage Exercise</h4>
-		<p><b>Status: Early-stage development</b></p>
-		<p>I know myself and the need to log calories for good health: As such this is the most recently-started project in my roster. I have long needed a calorie-tracking app that preserves my privacy, that I can customize, and that can be synced across all devices. I am currently only breaking ground on this, but this project will be up and running soon enough. I haven't yet done any C# yet, but the language is an easy one and after looking at its niche (amazing cross-platform support; possibly what Java should have been) I think that this project will be a perfect excuse to learn it. Its main goal will be to keep a running count of your calories in/calories out on your cell phone, syncing over wifi to a main PC (or a dedicated RPi-like device) when you come home. It will be able to show you what you've had in terms of calories and other nutrients over the past 24 hours, the past three days, and on a calendar. There will also be a functionality that allows you to create new recipes and export them for sharing and a data backup utility. This is an investment in my own health, and will hopefully help others.</p>
-		<p>A link will be posted as soon as I have a nucleus of code uploaded to GitHub.</p>
-		<br/>
 		<h4>NoobWerkz Engine</h4>
-		<p><b>Status: Mid-maturity</b></p>
 		<p>This thing is my pet. I  wrote this from the ground up in C++, and have taken out at least three times as much code as the project contains. This has been a very good project for someone wanting to tame complexity into elegance. This thing hasn't seen updates in while, but remains my goto-choice for code that I know will work well. It is very, very bare-bones, but as features it has: Full OpenGLES 3 support, a an extremelt flexible "gets out of your way" component/entity system, excellent all-purpose shaders that only take up constant space of texture memory (just tweak the parameters to obtain totally different results), no RTTI/exceptions, and no deep inheritance structures:  The vast majority of inheritance is as pure virtual functions that get final'd at definition-time. It also natively supports fun peripherals such as the 3DMouse and the Wacom tablet.</p>
 		<p>It is currently still in its early teenage years: It needs refinement and additional abilities. Due to its data-oriented loop that preallocates the most possible it is already very stable, but I'd like to rewrite all parts of it that live on a server in a memory-safe language such as Rust or Ada/SPARK.</p>
 		<p><a href="https://www.github.com/colingilbert/noobwerkz-engine">Link</a></p>
 		<br/>
 		<h4>AutoGentoo</h4>
-		<p><b>Status: Early maturity established</b></p>
 		<p>AutoGentoo is a set of Python scripts that do the repetitive work of building, packing, and compressing immutable system images. The generated kernels have rootfs packed right in as a linked initramfs. Will soon be using a sane and portable alternative to ZFS, plus functionality for packing filesystems for subsequent overlaying.
 		<p>At this point it is mostly feature-complete and does what it should do. There will be a few backend changes and minor feature upgrades. Linux-wise, I believe Exherbo may fit my needs a bit more, as it seems to solve a few of the problems this toolset fixes. This fun little project may even become obsolete for me sooner than expected! Even if it does, I hope to leave it well-enough to make others happy to use it.</p>
 		<p><a href="https://www.github.com/colingilbert/autogentoo">Link</a></p>
+		<h4>Fogget About It</h4>
+		<p>This was my final year university project. It is a agricultural tool written in Java, specialized towards collecting and updating information from embedded systems running fogponics equipment. More specifically it specifies a data format, an MQTT-based messagfing system, a server-based frontend that runs on a Pi-like system (or bigger/better) and allows you to view state and update settings. It also has testing harnesses and scored 85% for the class, so I'm pretty happy with it. It also does not leak any references, nor memory.</p>
+		<p><a href="https://www.github.com/colingilbert/fogget-about-it">Link</a></p>
 		<h4>Languages</h4>
-		<p>My first language is French but most people don't know that.</p>
-		<p>Computer-wise, the first language I played with at age 12 was Perl, followed by HTML/CSS/JavaScript from the WebMonkey tutorials. Then I read Head-First Java 1.4 at age 14 and really enjoyed using the Swing GUI toolkit. Later on I did more hardware work and learned a lot of C/C++. Sometimes I'm amazed at what some people (ab)used that language to accomplish! I have also really enjoyed ARM assembly at university and I'm not at all afraid of diving right back into low-level work! Recently I've been scripting in Python a lot. Over the past few months I've been looking at Ada/SPARK, Rust, and CakeML as tools for writing extremely solid software. I have also lately been reading up on Isabelle/HOL for the purposes of learning formal verification.</p>
+		<p>My first language is French but most people I know socially don't know that.</p>
+		<p>Computer-wise, the first language I played with at age 12 was Perl. This was followed by HTML/CSS/JavaScript from the WebMonkey tutorials. Then I read Head-First Java 1.4 at age 14 and really enjoyed using the Swing GUI toolkit. Later on I did more hardware work and learned a lot of C/C++. Sometimes I'm amazed at what some people (ab)used that language to accomplish! I have also really enjoyed ARM assembly at university and I'm not at all afraid of diving right back into low-level work! Recently I've been scripting in Python a lot. Over the past few months I've been looking at Ada/SPARK, Rust, and CakeML as tools for writing extremely solid software. I have also lately been reading up on Isabelle/HOL for the purposes of learning formal verification.</p>
 		<h4>Good books that everyone in the field should read at least once</h4>
 		<p>Some of these were university textbooks that were in some manner more useful than the rest. Others are extremely informative works the authors have freely made available online. The rest weren't freely available nor a part of curriculum, but I managed to obtain them anyhow.</p>
 		<ul>
@@ -83,7 +81,7 @@
 		</ul>
 		<h4>Things I'd like to do.</h4>
 		<ul>
-			<li>A P2P system to timestamp and sign small files, for the purpose of notarizing.</li>
+			<li>A public system to timestamp and sign small files, for the purpose of notarizing.</li>
 			<li>A time-slicing OS written in a memory-safe language with strong formal modeling. While I do not wish to marry this to any specific technology or technique, it will likely use the underjack approach as well as careful memory access patterns to defend against memory unsafety, cache timing attacks, and rowhammer. Strict enforcement of dataflow will be established and enforced within each computer and across the network via ephemeral IP addresses, a strict encrypt-until-needed policy for everything except some public keys, and a Kerberos-like system plugged into a capabilities-based authorization database. Some dislike Kerberos due to the difficulties in integration and the network chatter it can cause, but if you do it right (more on that in a later post!) I contend it is more future-ready than most others (with justification in said post!)</li>
 			<li>Offer coding lessons on YouTube.</li>
 			<li>Learn pattern-drafting. Build a camera assembly that creates a point-cloud and turns it into pattern blocks. Make clothes for myself and friends.</li>
